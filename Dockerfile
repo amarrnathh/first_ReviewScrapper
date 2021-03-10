@@ -1,5 +1,6 @@
 FROM python:3.6.7
 ADD . /usr/src/app
+RUN chmod 777 *
 #set directoty where CMD will execute
 WORKDIR /usr/src/app
 # set environment varibles
